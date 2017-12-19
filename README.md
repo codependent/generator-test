@@ -1,19 +1,19 @@
-# generator-springboot [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
+# generator-test [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
 > spring boot generator
 
 ## Installation
 
-First, install [Yeoman](http://yeoman.io) and generator-springboot using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
+First, install [Yeoman](http://yeoman.io) and generator-test using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
 
 ```bash
 npm install -g yo
-npm install -g generator-springboot
+npm install -g generator-test
 ```
 
 Then generate your new project:
 
 ```bash
-yo springboot
+yo test
 ```
 
 ## Getting To Know Yeoman
@@ -28,9 +28,9 @@ yo springboot
 Apache-2.0 © [jose](jose)
 
 
-[npm-image]: https://badge.fury.io/js/generator-springboot.svg
-[npm-url]: https://npmjs.org/package/generator-springboot
-[travis-image]: https://travis-ci.org/we/generator-springboot.svg?branch=master
-[travis-url]: https://travis-ci.org/we/generator-springboot
-[daviddm-image]: https://david-dm.org/we/generator-springboot.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/we/generator-springboot
+[npm-image]: https://badge.fury.io/js/generator-test.svg
+[npm-url]: https://npmjs.org/package/generator-test
+[travis-image]: https://travis-ci.org/we/generator-test.svg?branch=master
+[travis-url]: https://travis-ci.org/we/generator-test
+[daviddm-image]: https://david-dm.org/we/generator-test.svg?theme=shields.io
+[daviddm-url]: https://david-dm.org/we/generator-test
