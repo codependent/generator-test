@@ -1,0 +1,7 @@
+Hi <%= nombre %>!
+
+<%_ if (enabled) { _%>
+    Enabled
+<%_ } else { _%>
+    Disabled
+<%_ } _%>
