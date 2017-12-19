@@ -32,7 +32,7 @@ module.exports = class extends Generator {
 
   writing() {
     this.fs.copyTpl(
-      this.templatePath('someFolder'),
+      [this.templatePath() + '/someFolder/**', '!' + this.templatePath() + '/someFolder/toExclude.js'],
       this.destinationPath(this.props.projectName+'/someFolder'), this.props);
   }
 
